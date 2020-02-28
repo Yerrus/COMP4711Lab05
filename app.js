@@ -1,12 +1,14 @@
 var express = require('express');
 var app = express();
-var server = app.listen(8080);
+// var server = app.listen(8080);
 var fs = require('fs');
 var bodyParser = require('body-parser');
 
 function listening() {
     console.log("listening...");
 }
+
+app.listen(process.env.PORT || 3000);
 
 app.use(express.static('public'));
 app.use(bodyParser.text());
