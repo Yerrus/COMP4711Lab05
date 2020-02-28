@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>Artist Directory</title>
+</head>
+<body onload="loadArtist()">
+    <div class="header">
+        <div class="header-title">
+            <h1 class="header-title-text">Artist Directory</h1>
+        </div>
+        <div class="header-search">
+            <input type="text" placeholder="Search.." class="header-search-input">
+            <button type="button" class="header-search-button" onclick="addArtist()">Add Artist</button>
+        </div>
+    </div>
+    <div id="list">
+        <ul><input type="text" placeholder="Artist Name" maxlength="40" id="list-nameInput"></ul>
+        <ul><input type="text" placeholder="About Artist" maxlength="40" id="list-aboutInput"></ul>
+        <ul><input type="text" placeholder="Image URL" id="list-urlInput"></ul>
+        <button type="button" class="list-addBtn" onclick="createArtist()">Add</button>
+    </div>
+    <div id="artistList"></div>
+    <script src="Lab5.js"></script>
+</body>
+</html>

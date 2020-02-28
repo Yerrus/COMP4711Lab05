@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.header, #list {
+    text-align: center;
+    border-style: groove;
+    border-width: 2px;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    width: 35%;
+}
+
+#list {
+    width: 25%;
+}
+
+.header-search {
+    padding-bottom: 20px;
+}
+
+.header-search-input {
+    width: 78%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.header-title {
+    text-align: left;
+    padding-left: 45px;
+}
+
+.list-artist1-image, .list-artist2-image, .list-artist3-image, .list-artist4-image, .list-artist5-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.list-artist1, .list-artist2, .list-artist3, .list-artist4, .list-artist5 {
+    border-style: groove;
+    border-width: 2px;
+    display: flex;
+    padding: 15px;
+}
+
+.list-artist1-name, .list-artist2-name, .list-artist3-name, .list-artist4-name, .list-artist5-name, .list-artist1-desc, .list-artist2-desc, .list-artist3-desc, .list-artist4-desc, .list-artist5-desc {
+    width: 30%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.deleteBtn {
+    width: 80px;
+    height: 40px;
+    border: black;
+    border-radius: 3px;
+    padding: 8px;
+    background-color:red;
+    color:white;
+}
+
+.header-search-button { 
+    border:black;
+    margin-left:4%;
+    background:gray;
+}
+
+.artist {
+    margin: auto;
+    width: 24%;
+    padding: 10px;
+    border: 0.1px solid darkgrey;
+    display: flex;
+}
+
+.artist:hover{
+    background:lightgrey;
+}
+.artistDesc {
+    padding-left: 5px;
+    margin-right: 20%;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
